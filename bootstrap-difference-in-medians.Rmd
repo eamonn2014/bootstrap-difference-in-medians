@@ -1,14 +1,14 @@
 ---
-title: 'Bootstrap difference in Medians'
+title: "Bootstrap difference in Medians"
 author: "Code to demonstrate bootstrap difference in medians"
 date: '`r format(Sys.time(), "%d %B, %Y")`'
 output:
-  html_document: default
   pdf_document:
     fig_caption: yes
     fig_height: 6
     fig_width: 8
     number_sections: no
+  html_document: default
   word_document: default
 header-includes:
 - \usepackage{eso-pic,graphicx,transparent}
@@ -16,7 +16,7 @@ header-includes:
 - \usepackage{fancyhdr}
 - \pagestyle{fancy}
 - \setlength\headheight{22pt}
-- \fancyfoot[RO]{Novartis CLIMB}
+- \fancyfoot[RO]{Bootstrap difference in Medians}
 - \usepackage{lastpage}
 - \cfoot{Page \thepage\ of \pageref{LastPage}}
 ---
